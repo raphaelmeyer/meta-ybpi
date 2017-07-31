@@ -5,3 +5,9 @@ IMAGE_INSTALL += " \
     lighttpd \
     "
 
+IMAGE_FEATURES += " \
+    debug-tweaks \
+    package-management \
+    ssh-server-dropbear \
+    "
+
